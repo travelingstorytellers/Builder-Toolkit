@@ -11,7 +11,7 @@ html {
   body {
     font-family: "Helvetica Neue", sans-serif;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     box-sizing: border-box;
    
   }
@@ -27,11 +27,15 @@ html {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 30px;
+  padding-top:15%;
   color: white; }
 
 
 #logo {
   width: 200px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
 }
 span {
   font-weight: bold;
